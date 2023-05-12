@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 1,
+  "name": "LetterBolder",
+  "version": "1.0",
+
+  "description": "Makes First Letters in Words Bold.",
+
+  "icons": {
+    "48": "icons/letterbolder-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://arstechnica.com/*"],
+      "js": ["letterbolder.js"]
+    }
+  ]
+
+}
